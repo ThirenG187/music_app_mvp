@@ -1,0 +1,9 @@
+### GET A LIST OF ALL SONGS
+GET http://localhost:8000/song/list
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3NmRlZjFmLWQyYzUtNGRmZC04MjMzLTc1ZjZhOTNmN2Q2NCJ9.6zDRxF9QOZZG1b8FRip4y50oybLBIqMDV_6Bf-N_YIk
+
+### GET A LIST OF ALL FAVORITE SONGS
+GET http://localhost:8000/song/list/favorites
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3NmRlZjFmLWQyYzUtNGRmZC04MjMzLTc1ZjZhOTNmN2Q2NCJ9.6zDRxF9QOZZG1b8FRip4y50oybLBIqMDV_6Bf-N_YIk
